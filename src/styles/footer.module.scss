@@ -1,3 +1,48 @@
 .footer {
     margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media (max-width: 480px) {
+        flex-direction: column;
+        margin: 2rem auto 1rem;
+    }
 }
+
+.mail {
+    color: #060a18;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.mail:hover {
+    color: #555b72;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon {
+        color:#060a18;
+        margin: 0 1vw;
+
+        @media (max-width: 768px) {
+            margin: 0 2vw;
+        }
+    }
+    
+    .icon:hover {
+        color: #555b72;
+    }
+
+    @media (max-width: 480px) {
+        margin: 1rem auto 0;
+    }
+}
+
+
+
+

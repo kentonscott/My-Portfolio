@@ -1,26 +1,47 @@
+.container {
+    padding-top: 5vmin;
+}
+
 .posts {
     list-style-type: none;
     margin: 0;
+}
+
+
+h3 {
+    text-align: center;
+    margin: 0 auto;
+    color: #060a18;
 }
 
 .post {
     margin: 1rem 0;
 
     a {
-        background: #f4f4f4;
-        color: #000000;
-        display: block;
-        padding: 1rem;
-        text-decoration: none;
+        box-shadow: 5px 5px 1px 0px #060a18;
+        background-color:transparent;
+        border:2px solid #060a18;
+        display:inline-block;
+        cursor:pointer;
+        color:#060a18;
+        font-family:Verdana;
+        font-size:17px;
+        font-weight:bold;
+        padding:14px 44px;
+        text-decoration:none;
+        transition: 0.3s ease;
+        width: 100%
     }
 
     a:hover {
-        background: #e4e4e4;
+        background-color:#060a18;
+        color: #ffffff;
     }
 
     h2 {
         margin-bottom: 0;
     }
+
 
     p {
         color: #777777;

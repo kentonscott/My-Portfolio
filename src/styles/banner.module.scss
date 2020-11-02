@@ -1,0 +1,56 @@
+
+
+.intro {
+    padding-top: 1vh;
+    margin: 4rem;
+    @media (max-width: 480px) {
+        margin: 1rem auto;
+    }
+    h2 {
+        text-align: justify;
+        font-size: 2em;
+        color: #060a18;
+        @media (max-width: 480px) {
+            font-size: 1.5em;
+            text-align: left;
+        }
+    }
+}
+
+.iconrow {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    margin: auto;
+
+    @media (max-width: 480px) {
+        height: 4vh;
+    }
+
+    .icons {
+        color: #333333;
+    }
+
+    .icons:hover {
+        color: #555b72;
+    }
+
+    .faIcon {
+        font-size: 32px;
+
+        @media (max-width: 480px) {
+            font-size: 20px;
+        }
+    }
+
+    .divider {
+        width: 7vw;
+    }
+
+
+
+}
+
+
+
+

@@ -1,0 +1,36 @@
+.container {
+    padding-top: 5vmin;
+    margin: 0 auto;
+}
+
+.videoWrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    box-shadow: 5px 5px 1px 0px #000000;
+    background-color:transparent;
+    border:2px solid #000000;
+    color:#000000;
+    width: 640px;
+    @media (max-width: 640px) {
+        width: auto;
+    }
+        
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.titles {
+    padding: 1em 0;
+
+    p {
+        font-size: .8rem;
+        text-transform: uppercase;
+    }
+}

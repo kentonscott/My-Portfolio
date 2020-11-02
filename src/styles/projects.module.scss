@@ -1,0 +1,103 @@
+
+
+.posts {
+    list-style-type: none;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
+.post {
+    width: 100%;
+    margin: 1rem 0;
+    color: #060a18;
+    display: flex;
+    flex-direction: row;
+
+    padding: 1rem;
+    text-decoration: none;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
+    .previewImage {
+        width: 50%;
+        margin: 0 2vw 0 0;
+        @media (max-width: 768px) {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    .info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @media (max-width: 768px) {
+            width: 100%;
+            padding-top: 1vh;
+            margin: 0 auto;
+        }
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #060a18;
+        display: inline;
+    }
+
+    p {
+        color: #777777;
+        font-size: .8rem;
+        margin: 0;
+    }
+
+    .buttons {
+        display: inline-block;
+        margin: 2rem 0;
+    }
+
+    a.button {
+        box-shadow: 5px 5px 1px 0px #060a18;
+        background-color:transparent;
+        border:2px solid #060a18;
+        display:inline-block;
+        cursor:pointer;
+        color:#060a18;
+        font-family:Verdana;
+        font-size:17px;
+        font-weight:bold;
+        padding:14px 44px;
+        text-decoration:none;
+        transition: 0.3s ease;
+        @media (max-width: 760px) {
+            font-size: 14px;
+            padding: 10px 36px;
+        }
+    }
+
+    a.button:hover {
+        background-color:#060a18;
+        color: #ffffff;
+    }
+    .a:active {
+        position:relative;
+        top:1px;
+    }
+
+    .divider {
+        width: 3em;
+        height: auto;
+        display: inline-block;
+    }
+}
