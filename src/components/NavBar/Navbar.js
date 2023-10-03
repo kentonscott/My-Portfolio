@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
-import NavbarLinks from "./NavbarLinks"
-import headerStyles from "/Users/kentonscott/Desktop/Web/my-portfolio/src/styles/header.module.scss"
+import NavbarLinks from "../NavBar/NavBarLinks"
+// import headerStyles from "/Users/kentonscott/Desktop/Web/my-portfolio/src/styles/header.module.scss"
 
 const Navigation = styled.nav`
     height: 15vh;
